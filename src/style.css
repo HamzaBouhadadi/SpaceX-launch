@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-spacex-blue text-white rounded hover:bg-opacity-90 transition-all;
+  }
+  .modal-backdrop {
+    @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center;
+  }
+  .modal-content {
+    @apply bg-white p-6 rounded-lg max-w-2xl w-full mx-4;
+  }
+}
