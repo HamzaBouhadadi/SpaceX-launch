@@ -1,5 +1,14 @@
-# Vue 3 + TypeScript + Vite
+1 - Clonez le dépôt Git sur votre machine locale en utilisant la commande suivante dans votre terminal :
+https://github.com/HamzaBouhadadi/SpaceX-launch.git
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+2 - Accédez au dossier du projet cloné :
+cd spacex-launches
+
+3 - Installez les dépendances du projet avec npm (assurez-vous d'avoir Node.js et npm installés) :
+npm install
+
+4 - Lancez le serveur de développement pour voir l'application en action :
+npm run dev
+
+5 - Ouvrez l'URL fournie dans votre terminal pour visualiser l'application.
